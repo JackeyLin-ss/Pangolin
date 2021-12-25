@@ -160,7 +160,7 @@ public:
     /// Return next unique colour from ColourWheel.
     inline Colour GetUniqueColour()
     {
-        return GetColourBin(unique_colours++);
+        return GetColourBin( 10 + unique_colours++);
     }
 
 protected:
