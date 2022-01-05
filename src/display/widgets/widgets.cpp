@@ -45,11 +45,11 @@ namespace pangolin {
 extern __thread PangolinGl* context;
 
 const static GLfloat colour_s1[4] = {0.05f, 0.05f, 0.05f, 1.0f};
-const static GLfloat colour_s2[4] = {0.6f, 0.6f, 0.6f, 1.0f};
+const static GLfloat colour_s2[4] = {0.0f, 0.0f, 0.0f, 1.0f};
 const static GLfloat colour_bg[4] = {0.2f, 0.2f, 0.2f, 1.0f};
 const static GLfloat colour_fg[4] = {0.25f, 0.25f, 0.25f, 1.0f};
 const static GLfloat colour_tx[4] = {1.0f, 0.9f, 0.9f, 1.0f};
-const static GLfloat colour_dn[4] = {0.14f, 0.4f, 0.90f, 1.0f};
+const static GLfloat colour_dn[4] = {0.46f, 0.247f, 0.447f, 1.0f};
 
 static inline GlFont& font() { return GlFont::I(); }
 
