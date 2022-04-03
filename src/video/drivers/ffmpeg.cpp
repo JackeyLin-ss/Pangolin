@@ -660,6 +660,7 @@ void FfmpegVideoOutputStream::WriteImage(const uint8_t* img, int w, int h, doubl
     frame->pts = pts;
     frame->width =  w;
     frame->height = h;
+    frame->format = c->pix_fmt;
     WriteFrame(frame);
 }
 
